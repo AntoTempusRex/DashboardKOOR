@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'unj': ['Praise'],  
+        'unjpoppins': ['Poppins'],  
       },
       
       screens: {
@@ -21,6 +22,8 @@ module.exports = {
         ijounj: '#266B45',
         whiteblurry: 'rgb(255, 255, 255, 76%)',
         buttonunj: '#305067',
+        unjboard: '#BCCFDD',
+        sidebarunj: '#305067'
       },
       opacity: {
         '76': '76%',
@@ -32,6 +35,13 @@ module.exports = {
       dropShadow: {
         '3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',
       },
+      gridTemplateColumns: {
+        sidebar: '300px 1fr'
+      },
+      gridTemplateRows: {
+        MainMenuHead: '80px 1fr',
+      },
+
     },
     
   },
