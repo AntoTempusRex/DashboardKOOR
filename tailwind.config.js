@@ -23,7 +23,8 @@ module.exports = {
         whiteblurry: 'rgb(255, 255, 255, 76%)',
         buttonunj: '#305067',
         unjboard: '#BCCFDD',
-        sidebarunj: '#305067'
+        sidebarunj: '#305067',
+        dimas: '#6B7D21',
       },
       opacity: {
         '76': '76%',
@@ -42,9 +43,10 @@ module.exports = {
         MainMenuHead: '80px 1fr',
       },
 
+
     },
     
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
 
