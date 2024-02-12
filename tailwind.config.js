@@ -49,6 +49,7 @@ module.exports = {
       },
       gridRow: {
         'header': '1 / 2',
+        'foot': '1 / 4',
         'sidebar': '1 / 3',
         'main': '2 / 3',
       },
