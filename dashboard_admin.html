@@ -9,11 +9,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
-<body class="font-unjpoppins">
+<body class="font-unjpoppins h-screen grid grid-cols-sidebar grid-rows-MainMenuHead">
   <section
-			class="h-screen w-full grid grid-cols-sidebar grid-rows-MainMenuHead overflow-hidden">
+			class="h-screen w-full overflow-hidden">
 			<aside class="bg-sidebarunj h-screen">
-				<header class="w-full h-[80px] border-b border-white">
+				<header class="w-full border-b border-white">
 					<div class="flex items-center">
 						<div class="flex">
 							<img
@@ -30,7 +30,7 @@
 				</header>
 
         <!-- SideNav Start -->
-        <div class="w-full h-full">
+        <div class="w-full h-full grid">
           <div class="flex flex-no-wrap justify-center">
               <ul class="mt-12">
                 <li class="before:bg-slate-500 before:w-7 before:absolute before:pointer-events-none before:h-9 before:-translate-x-20 before:rounded-e-md flex w-full justify-between text-gray-300 cursor-pointer items-center mb-6">
@@ -72,10 +72,14 @@
         </div>
           
         
-        <!-- SideNav Start -->
+        
 			</aside>
+    </section>
+        <!-- SideNav End -->
 
-			<main class="flex w-full bg-unjboard z-10 relative">
+        <!-- Dashboard Main Start -->
+    <section class="">
+			<main class="w-full bg-unjboard z-10 relative">
         <div class="flex w-full">
           <header class="text-black bg-headunj font-semibold text-start flex items-center ms-9 text-2xl">Dashboard</header>
           <div class="flex items-center flex-row grow absolute right-20 top-0 bottom-0">
@@ -85,6 +89,12 @@
           </div>
         </div>
 			</main>
+
+      <main>
+        Sistem Informasi Peminjaman Ruang
+      </main>
+
+        <!-- Dashboard Main Start -->
 		</section>
 </body>
 </html>

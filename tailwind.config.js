@@ -20,7 +20,7 @@ module.exports = {
       },
       colors: {
         ijounj: '#266B45',
-        whiteblurry: 'rgb(255, 255, 255, 76%)',
+        putihkotor: '#D9D9D9',
         buttonunj: '#305067',
         unjboard: '#BCCFDD',
         sidebarunj: '#305067',
@@ -40,7 +40,17 @@ module.exports = {
         sidebar: '300px 1fr'
       },
       gridTemplateRows: {
-        MainMenuHead: '80px 1fr',
+        MainMenuHead: '82px 1fr',
+      },
+      gridColumn: {
+        'header': '2 / 3',
+        'sidebar': '1 / 2',
+        'main': '2 / 3',
+      },
+      gridRow: {
+        'header': '1 / 2',
+        'sidebar': '1 / 3',
+        'main': '2 / 3',
       },
 
 
