@@ -3,45 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./src/output3.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Praise&display=swap" rel="stylesheet">
-    <link href="./src/output3.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
-<body>
-    <section>
-        <div class="bg-cover bg-no-repeat h-screen z-[9]" style="background-image: url(./img/loginbg.png);">
-            <div class="container mx-auto flex h-full flex-1 items-center justify-center">
-                <div class="w-[450px] max-w-lg drop-shadow-3xl">
-                    <div class="leading-loose">
-                        <form action="" class=" rounded-chonk bg-white bg-opacity-80 backdrop-filter backdrop-blur-sm p-10 border-white/67">
-                            <img src="./img/logocropped.png" alt="" class="mt-0 mx-auto">
-                            <p class="text-center text-3xl  font-unj text-ijounj mt-0">Mencerdaskan dan<br>
-                                Memartabatkan Bangsa
-                            </p>
+<body class="font-unjpoppins">
+  <section
+			class="h-screen w-full grid grid-cols-sidebar grid-rows-MainMenuHead">
+			<aside class="bg-sidebarunj h-screen">
+				<header class="w-full h-[80px] border-b border-white">
+					<div class="flex items-center">
+						<div class="flex">
+							<img
+								src="./img/UNJ__Universitas_Negeri_Jakarta__Logo_-_Download_Free_PNG-removebg-preview (1) 1.png"
+								alt=""
+								class="w-[59px] h-[61px] mx-5 my-2.5" />
 
-                            <div class="relative mt-9">
-                                <input type="text" id="Username" class="block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-2 border-black appearance-none focus:outline-none focus:ring-0 peer" placeholder=" " />
-                                <label for="Username" class="ps-5 absolute text-sm text-black font-medium duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-transparent px-2 peer-focus:px-2 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-100 peer-focus:-translate-y-8 peer-focus:font-medium peer-focus:text-lg">Username</label>
-                            </div>
-
-                            <div class="relative mt-9">
-                                <input type="password" id="Password" class="block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-2 border-black appearance-none focus:outline-none focus:ring-0 peer" placeholder=" " />
-                                <label for="Password" class="ps-5 absolute text-sm text-black font-medium duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-transparent px-2 peer-focus:px-2 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-100 peer-focus:-translate-y-8 peer-focus:font-medium peer-focus:text-lg">Password</label>
-                            </div>
-                            
-
-                            <div class="mt-9 flex items-center justify-end">
-                                <button class="rounded-full bg-buttonunj px-7 py-1 font-medium
-                                tracking-wide text-white transition-all duration-300
-                                hover:bg-white hover:text-buttonunj">Login</button>
-                            </div>
-
-                        </form>
-                    </div>
+                <div class="flex flex-col mx-auto text-center align-middle">
+                  <span class="text-white text-md mx-2 mt-3 font-semibold text-start">UPT TIK</span>
+                  <span class="text-white text-sm mx-2">Universitas Negeri Jakarta</span>
                 </div>
-            </div>
+						</div>
+					</div>
+				</header>
+			</aside>
+
+			<main class="flex w-full bg-unjboard z-10 relative">
+        <div class="flex w-full">
+          <header class="text-black bg-headunj font-semibold text-start flex items-center ms-9 text-2xl">Dashboard</header>
+          <div class="flex items-center flex-row grow absolute right-20 top-0 bottom-0">
+            <img src="./img/Frame 17.png" alt="" width="47px" height="47px" class="">
+            <h3 class="me-5 ms-2 font-medium">Admin</h3>
+            <a href="#"><img src="./img/Group 35.png" alt="" width="29px" height="29px" class="p-0 m-0 cursor-pointer"></a>
+          </div>
         </div>
-    </section>
+			</main>
+		</section>
 </body>
 </html>
