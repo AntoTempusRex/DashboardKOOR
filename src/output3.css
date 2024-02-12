@@ -8536,6 +8536,11 @@ details.collapse summary::-webkit-details-marker {
   margin-right: 1.25rem;
 }
 
+.mx-\[52px\] {
+  margin-left: 52px;
+  margin-right: 52px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -8549,11 +8554,6 @@ details.collapse summary::-webkit-details-marker {
 .my-2\.5 {
   margin-top: 0.625rem;
   margin-bottom: 0.625rem;
-}
-
-.mx-\[52px\] {
-  margin-left: 52px;
-  margin-right: 52px;
 }
 
 .mb-2 {
@@ -8622,10 +8622,6 @@ details.collapse summary::-webkit-details-marker {
 
 .mt-9 {
   margin-top: 2.25rem;
-}
-
-.mt-\[120px\] {
-  margin-top: 120px;
 }
 
 .box-border {
@@ -8751,10 +8747,6 @@ details.collapse summary::-webkit-details-marker {
   height: 72px;
 }
 
-.h-\[80px\] {
-  height: 80px;
-}
-
 .h-\[82px\] {
   height: 82px;
 }
@@ -8765,10 +8757,6 @@ details.collapse summary::-webkit-details-marker {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[\] {
-  height: ;
 }
 
 .w-\[1000px\] {
@@ -8813,6 +8801,10 @@ details.collapse summary::-webkit-details-marker {
 
 .w-full {
   width: 100%;
+}
+
+.w-screen {
+  width: 100vw;
 }
 
 .max-w-lg {
@@ -9700,6 +9692,10 @@ details.collapse summary::-webkit-details-marker {
   border-radius: 0.5rem;
 }
 
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -9862,11 +9858,6 @@ details.collapse summary::-webkit-details-marker {
   background-color: rgb(48 80 103 / var(--tw-bg-opacity));
 }
 
-.bg-dimas {
-  --tw-bg-opacity: 1;
-  background-color: rgb(107 125 33 / var(--tw-bg-opacity));
-}
-
 .bg-red-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(239 68 68 / var(--tw-bg-opacity));
@@ -9894,11 +9885,6 @@ details.collapse summary::-webkit-details-marker {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-putihkotor {
-  --tw-bg-opacity: 1;
-  background-color: rgb(217 217 217 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-80 {
@@ -10027,10 +10013,6 @@ details.collapse summary::-webkit-details-marker {
   padding: 2.5rem;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
 .p-6 {
   padding: 1.5rem;
 }
@@ -10050,11 +10032,6 @@ details.collapse summary::-webkit-details-marker {
   padding-right: 1.75rem;
 }
 
-.px-\[52px\] {
-  padding-left: 52px;
-  padding-right: 52px;
-}
-
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -10063,31 +10040,6 @@ details.collapse summary::-webkit-details-marker {
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
-}
-
-.px-0 {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.py-14 {
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
-}
-
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
 }
 
 .pb-2 {
@@ -10822,6 +10774,18 @@ details.collapse summary::-webkit-details-marker {
 .hover\:scale-110:hover {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:scale-105:hover {
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:scale-100:hover {
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
