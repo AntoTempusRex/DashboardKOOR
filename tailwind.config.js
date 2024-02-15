@@ -40,17 +40,22 @@ module.exports = {
 				sidebar: "1.5fr 1fr 1fr 1fr 1fr",
 				testcol: "280px 1fr 1fr 1fr 1fr 1fr 1fr 1fr",
 				contentcol: "1fr 1fr 1fr 1fr 1fr 1fr 1fr",
+				contentcolpinjaman: "1fr 1fr 1fr 1fr 1fr 1fr 1fr",
 				contentcoldlm: "1fr 1fr",
 			},
 			gridTemplateRows: {
 				MainMenuHead: "82px 1fr",
 				testrow: "80px 1fr 1fr 1fr 1fr 1fr 1fr 80px",
-				contentrow: "1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr",
+				contentrowpinjaman: "1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr",
+				contentrow: "1fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr",
 				contentrowdlm: "1fr 1fr",
 			},
 			blur: {
 				ssm: '1px',
-			  },
+			},
+			boxShadow: {
+				'all-side': '0 0 60px -15px rgba(0, 0, 0, 0.5)',
+			},
 		},
 	},
 };
