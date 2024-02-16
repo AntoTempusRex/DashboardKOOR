@@ -54,7 +54,7 @@ module.exports = {
 				ssm: '1px',
 			},
 			boxShadow: {
-				'all-side': '0 0 60px -15px rgba(0, 0, 0, 0.5)',
+				'all-side': '-10px -10px 30px 4px rgba(0, 0, 0, 0.3)',
 			},
 		},
 	},

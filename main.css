@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer components {
     .kontener {
       @apply  w-[80%] h-[80%] bg-gray-700;
