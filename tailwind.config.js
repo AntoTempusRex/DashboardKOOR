@@ -5,7 +5,7 @@ module.exports = {
 		extend: {
 			fontFamily: {
 				unj: ["Praise"],
-				unjpoppins: ["Poppins"],
+				poppins: ["Poppins"],
 			},
 
 			screens: {
@@ -25,6 +25,8 @@ module.exports = {
 				unjboard: "#BCCFDD",
 				sidebarunj: "#305067",
 				dimas: "#6B7D21",
+				putihan: "#FAF9FF",
+				biruan: "#B9C2FF",
 			},
 			opacity: {
 				76: "76%",
