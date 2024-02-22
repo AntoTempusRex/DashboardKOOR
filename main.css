@@ -18,7 +18,10 @@
 		@apply w-[90px];
 	}
 	#sidebar.close .text{
-		@apply opacity-0 pointer-events-none transition-opacity duration-[0.3s] delay-0;
+		@apply opacity-0 pointer-events-none transition-opacity duration-[0.2s] delay-0;
+	}
+	#sidebar.close ~ .home{
+		@apply left-[90px] w-[calc(100%-90px)] transition-all duration-[0.7s] delay-0;
 	}
 	#sidebar .text{
 		@apply whitespace-nowrap opacity-100 transition-opacity delay-[0.4s];
