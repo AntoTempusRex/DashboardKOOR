@@ -792,10 +792,6 @@ video {
   top: 50%;
 }
 
-.right-40 {
-  right: 10rem;
-}
-
 .isolate {
   isolation: isolate;
 }
@@ -925,19 +921,14 @@ video {
   margin-bottom: 0.5rem;
 }
 
-.my-auto {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.my-5 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
 .my-7 {
   margin-top: 1.75rem;
   margin-bottom: 1.75rem;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .mb-3 {
@@ -1904,10 +1895,6 @@ video {
 
 .gap-4 {
   gap: 1rem;
-}
-
-.gap-5 {
-  gap: 1.25rem;
 }
 
 .-space-x-px > :not([hidden]) ~ :not([hidden]) {
