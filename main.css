@@ -38,18 +38,4 @@
 	.active-link{
 		@apply bg-putihan/[10%] rounded-lg;
 	}
-	/* .container {
-		@apply mx-4;
-	}
-	.link {
-		@apply flex whitespace-nowrap items-center;
-		column-gap: 1rem;
-	}
-	.list {
-		@apply grid mt-[10.5rem];
-		row-gap: 2.5rem;
-	}
-	.show-menu {
-		@apply w-[255px] ;
-	} */
 }

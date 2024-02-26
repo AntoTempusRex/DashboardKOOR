@@ -28,3 +28,8 @@ linkcolor.forEach(l => l.addEventListener('click', colorlink))
     toggle.addEventListener('click', () => {
         sidebar.classList.toggle('close')
     })
+
+    const swup = new Swup({
+        plugins: [new SwupSlideTheme()]
+      });
+      
