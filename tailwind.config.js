@@ -25,7 +25,7 @@ module.exports = {
 				unjboard: "#BCCFDD",
 				sidebarunj: "#305067",
 				dimas: "#6B7D21",
-				putihan: "#FAF9FF",
+				putihan: "#ececec",
 				biruan: "#B9C2FF",
 			},
 			opacity: {
