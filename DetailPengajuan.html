@@ -73,35 +73,65 @@
                 </div>
             </div>
             <!-- ContentReal Start -->
-            <div class="w-[90%] h-full mx-auto py-3 px-4">
-                <div class="w-[936px] h-[90px] shadow-all-side flex mx-auto mt-10 px-5 py-3">
-                    <svg class="w-10 h-10 text-gray-800 my-1 mx-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
-                        <path fill-rule="evenodd" d="M2 12a10 10 0 1 1 20 0 10 10 0 0 1-20 0Zm9.4-5.5a1 1 0 1 0 0 2 1 1 0 1 0 0-2ZM10 10a1 1 0 1 0 0 2h1v3h-1a1 1 0 1 0 0 2h4a1 1 0 1 0 0-2h-1v-4c0-.6-.4-1-1-1h-2Z" clip-rule="evenodd"/>
-                    </svg>
-                        <div class="flex flex-col grow tracking-wider my-auto">
-                            <span class="font-semibold md:lg:text-2xl sm:text-md">Selamat Datang di Sistem Informasi Peminjaman Ruangan</span>
-                          <span class="font-semibold md:lg:text-lg sm:text-sm">saat ini anda login sebagai Kepala UPT TIK</span>
-                        </div>           
-                    </div>
-                    
-                    
-                    <div class="flex ms-20 h-48 gap-4 mt-14 rounded text-white">
-                        <div class="w-[425px] h-[225px] bg-red-500 rounded-lg relative hover:scale-105 transition-all duration-500 ease-in-out">
-                            <div class="flex m-5">
-                                <div class="w-[65%] h-full my-auto mx-5">
-                                    <span class="whitespace-nowrap block text-3xl font-semibold align-middle">0</span>
-                                    <span class="whitespace-nowrap block text-2xl font-semibold align-middle">Peminjaman</span>
-                                </div>
-                                <div class="w-full h-full flex justify-center items-center mx-5">
-                                    <i class='bx bx-list-ul text-[150px]'></i>                            
-                                </div>
-                            </div>
-                            <div class="bg-red-600 w-full h-8 absolute bottom-0 left-0 flex items-center justify-center rounded-lg cursor-pointer" >
-                                <span class="my-auto">Selengkapnya</span>
-                                <i class='bx bxs-right-arrow-circle ms-2 text-2xl my-auto'></i>
+            <div class="w-[90%] h-[90%] mx-auto flex justify-center pt-3 relative ">
+                <div class="relative p-4 w-full max-w-2xl max-h-full">
+                    <div class="relative bg-putihan rounded-lg shadow-all-side">
+                        <div class="flex items-center p-4 border-b border-gray-700 rounded-t">
+                            <a href="SuratPengajuan.html"><button type="button" class="text-gray-600 bg-transparent hover:bg-gray-300 hover:text-gray-900 rounded-lg text-sm w-8 h-8 me-2 inline-flex justify-center items-center transition-all duration-200 ease-in-out">
+                              <i class='bx bx-arrow-back text-xl'></i>
+                                <span class="sr-only">Close modal</span>
+                            </button></a>
+                            <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+                                Surat Pengajuan
+                            </h3>
+                        </div>
+                        <div class="p-4 md:p-5 space-y-4">
+                            <div class="flex">
+                              <div class="flex flex-col z-10">
+                                  <span class="block mt-3 mx-3 text-base font-semibold">Nomor Surat</span>
+                                  <span class="block mt-3 mx-3 text-base font-semibold">Asal Surat</span>
+                                  <span class="block mt-3 mx-3 text-base font-semibold">Nama Peminjam</span>
+                                  <span class="block mt-3 mx-3 text-base font-semibold">Tanggal Peminjam</span>
+                                  <span class="block mt-3 mx-3 text-base font-semibold">Lama Peminjaman</span>
+                              </div>
+                              <div class="flex flex-col z-10">
+                                  <span class="block mt-3 mx-3 text-base font-semibold">:</span>
+                                  <span class="block mt-3 mx-3 text-base font-semibold">:</span>
+                                  <span class="block mt-3 mx-3 text-base font-semibold">:</span>
+                                  <span class="block mt-3 mx-3 text-base font-semibold">:</span>
+                                  <span class="block mt-3 mx-3 text-base font-semibold">:</span>
+                              </div>
+                              <div class="flex flex-col z-10">
+                                  <span class="block mt-3 mx-3 text-base font-semibold">081/PH.i.3/BEM-FIA/II/2022</span>
+                                  <span class="block mt-3 mx-3 text-base font-semibold">Institut Teknologi Bandung</span>
+                                  <span class="block mt-3 mx-3 text-base font-semibold">Muhammad Gilang</span>
+                                  <span class="block mt-3 mx-3 text-base font-semibold">4 juli 2023</span>
+                                  <span class="block mt-3 mx-3 text-base font-semibold">5 Hari</span>
+                              </div>
                             </div>
                         </div>
+                        <div class="flex items-center ps-8 p-4 rounded-b">
+                            <button data-modal-hide="static-modal" type="button" class="bg-gray-300 hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm px-5 py-2.5 text-center transition-all duration-200 ease-in-out">Surat Pengajuan</button>
+                            <button id="showreason" data-modal-target="reason" data-modal-toggle="reason" type="button" class="bg-red-500 hover:bg-red-700 text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm px-7 py-2.5 ms-auto text-center transition-all duration-200 ease-in-out">Tolak</button>
+                            <button type="submit" class="bg-green-500 hover:bg-green-700 text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm px-5 py-2.5 ms-1.5 text-center transition-all duration-200 ease-in-out">Terima</button>
+                        </div>
                     </div>
+                </div>
+
+                <div id="reason" aria-hidden="true" class="hidden absolute w-[60%] z-50 h-24 items-center mt-20 bottom-1.5 px-4 mx-w-2xl">
+                    <div class="bg-putihan rounded-lg w-full shadow-all-side py-2 px-4 flex flex-col transition-all duration-1000 ease-in-out">
+                        <div class="border-b border-gray-400 w-[146px] cursor-default">
+                            <span class="text-base font-medium whitespace-nowrap">Alasan Penolakan</span>
+                        </div>
+                        
+
+                        <div class="flex">
+                            <textarea id="message" rows="1" class="block mt-1.5 p-2.5 w-[85%] text-sm text-gray-900 bg-gray-300 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 focus:outline-none placeholder:text-gray-600" placeholder="Alasan..."></textarea>
+                            <button type="submit" class="inline-flex w-[15%] bg-gray-300 hover:bg-gray-400 text-gray-600 rounded-xl ms-1.5 mt-1.5 items-center justify-center">Kirim</button>
+                        </div>
+
+                    </div>
+                </div>
             </div>
             
             <!-- ContentReal Start -->

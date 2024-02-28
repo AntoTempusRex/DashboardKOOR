@@ -38,4 +38,7 @@
 	.active-link{
 		@apply bg-putihan/[10%] rounded-lg;
 	}
+	#reason.tutup {
+		@apply scale-0;
+	}
 }

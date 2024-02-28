@@ -23,13 +23,24 @@ linkcolor.forEach(l => l.addEventListener('click', colorlink))
 
 
     const sidebar = document.querySelector('#sidebar')
-    const toggle = document.querySelector('#toggle')
+    const showsidebar = document.querySelector('#toggle')
 
     toggle.addEventListener('click', () => {
         sidebar.classList.toggle('close')
     })
 
-    const swup = new Swup({
-        plugins: [new SwupSlideTheme()]
-      });
-      
+    const alasan = document.querySelector('#reason')
+    const togglereason = document.querySelector('#showreason')
+
+    function showalasan(){
+        var x = document.getElementById('reason')
+
+        if (x.style.display === "none") {
+            x.style.display = "block"
+        }else {
+            x.style.display = "none"
+        }
+        // toggle.addEventListener('click', () => {
+        //     alasan.classList.toggle('tutup')
+        // })
+    }
