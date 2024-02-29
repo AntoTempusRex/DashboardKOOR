@@ -41,9 +41,15 @@
                         </a>
                     </li>
                     <li class="link flex items-center justify-center">
-                        <a href="SuratPengajuan.html" class="hover:bg-putihan/[10%] active-link flex whitespace-nowrap px-5 rounded-lg transition duration-300 ease-in-out">
+                        <a href="Pengajuan.html" class="hover:bg-putihan/[10%] active-link flex whitespace-nowrap px-5 rounded-lg transition duration-300 ease-in-out">
                             <i class='bx bxs-envelope text-xl mx-1 me-7'></i>
-                            <span class="text">Surat Pengajuan</span>
+                            <span class="text">Pengajuan</span>
+                        </a>
+                    </li>
+                    <li class="link flex items-center justify-center">
+                        <a href="DataRuangan.html" class="hover:bg-putihan/[10%] flex whitespace-nowrap px-5 rounded-lg transition duration-300 ease-in-out">
+                            <i class='bx bx-line-chart text-xl mx-1 me-7'></i>
+                            <span class="text">Data Referensi</span>
                         </a>
                     </li>
                 </ul>
@@ -64,73 +70,38 @@
                                 <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
                             </svg>
                         </button>
-                        <span class="text-2xl font-semibold flex items-center">Dashboard</span>
+                        <span class="text-2xl font-semibold flex items-center">Pengajuan</span>
                         <div class="flex ms-auto me-4 rounded-full py-1 shadow-all-side transition-all duration-1000 ease-in-out cursor-pointer" data-modal-target="popup-modal" data-modal-toggle="popup-modal">
-                            <img class="rounded-full w-10 h-10 ms-5 my-auto" src="./img/Ellipse 6.svg" alt="">
-                            <span class="me-5 ms-3 flex items-center font-medium text-lg">Hafidz</span>
+                            <img class="rounded-full w-10 h-10 ms-5" src="./img/DeadpoolCroppped.svg" alt="">
+                            <span class="me-5 ms-3 flex items-center font-medium text-lg">Fabio</span>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- ContentReal Start -->
-            <div class="w-[90%] h-[90%] mx-auto flex justify-center pt-3 relative ">
-                <div class="relative p-4 w-full max-w-2xl max-h-full">
-                    <div class="relative bg-putihan rounded-lg shadow-all-side">
-                        <div class="flex items-center p-4 border-b border-gray-700 rounded-t">
-                            <a href="SuratPengajuan.html"><button type="button" class="text-gray-600 bg-transparent hover:bg-gray-300 hover:text-gray-900 rounded-lg text-sm w-8 h-8 me-2 inline-flex justify-center items-center transition-all duration-200 ease-in-out">
-                              <i class='bx bx-arrow-back text-xl'></i>
-                                <span class="sr-only">Close modal</span>
-                            </button></a>
-                            <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
-                                Surat Pengajuan
-                            </h3>
-                        </div>
-                        <div class="p-4 md:p-5 space-y-4">
-                            <div class="flex">
-                              <div class="flex flex-col z-10">
-                                  <span class="block mt-3 mx-3 text-base font-semibold">Nomor Surat</span>
-                                  <span class="block mt-3 mx-3 text-base font-semibold">Asal Surat</span>
-                                  <span class="block mt-3 mx-3 text-base font-semibold">Nama Peminjam</span>
-                                  <span class="block mt-3 mx-3 text-base font-semibold">Tanggal Peminjam</span>
-                                  <span class="block mt-3 mx-3 text-base font-semibold">Lama Peminjaman</span>
-                              </div>
-                              <div class="flex flex-col z-10">
-                                  <span class="block mt-3 mx-3 text-base font-semibold">:</span>
-                                  <span class="block mt-3 mx-3 text-base font-semibold">:</span>
-                                  <span class="block mt-3 mx-3 text-base font-semibold">:</span>
-                                  <span class="block mt-3 mx-3 text-base font-semibold">:</span>
-                                  <span class="block mt-3 mx-3 text-base font-semibold">:</span>
-                              </div>
-                              <div class="flex flex-col z-10">
-                                  <span class="block mt-3 mx-3 text-base font-semibold">081/PH.i.3/BEM-FIA/II/2022</span>
-                                  <span class="block mt-3 mx-3 text-base font-semibold">Institut Teknologi Bandung</span>
-                                  <span class="block mt-3 mx-3 text-base font-semibold">Muhammad Gilang</span>
-                                  <span class="block mt-3 mx-3 text-base font-semibold">4 juli 2023</span>
-                                  <span class="block mt-3 mx-3 text-base font-semibold">5 Hari</span>
-                              </div>
-                            </div>
-                        </div>
-                        <div class="flex items-center ps-8 p-4 rounded-b">
-                            <button data-modal-hide="static-modal" type="button" class="bg-gray-300 hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm px-5 py-2.5 text-center transition-all duration-200 ease-in-out">Surat Pengajuan</button>
-                            <button id="showreason" data-modal-target="reason" data-modal-toggle="reason" type="button" class="bg-red-500 hover:bg-red-700 text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm px-7 py-2.5 ms-auto text-center transition-all duration-200 ease-in-out">Tolak</button>
-                            <button type="submit" class="bg-green-500 hover:bg-green-700 text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm px-5 py-2.5 ms-1.5 text-center transition-all duration-200 ease-in-out">Terima</button>
-                        </div>
-                    </div>
-                    
-                    <div id="reason" aria-hidden="true" class="hidden absolute w-full z-50 h-24 items-center mt-20 bottom-2 right-0 px-4">
-                        <div class="bg-putihan rounded-lg w-full shadow-all-side py-2 px-4 flex flex-col">
-                            <div class="border-b border-gray-400 w-[146px] cursor-default">
-                                <span class="text-base font-medium whitespace-nowrap">Alasan Penolakan</span>
-                            </div>
-                            
-    
-                            <div class="flex">
-                                <input id="message" rows="1" class="block mt-1.5 p-2.5 w-[85%] text-sm text-gray-900 bg-gray-300 rounded-lg border border-gray-300 focus:border-blue-500 focus:outline-none placeholder:text-gray-600" placeholder="Alasan..."></input>
-                                <button type="submit" class="inline-flex w-[15%] bg-gray-300 hover:bg-gray-400 text-gray-600 rounded-xl ms-1.5 mt-1.5 items-center justify-center border focus:border-blue-500">Kirim</button>
-                            </div>
-    
-                        </div>
-                    </div>
+            <div class="w-[90%] h-full mx-auto p-5 px-20">
+                <span class="font-bold text-2xl pb-1 border-b border-gray-600">Pengajuan Ruang</span>
+
+                
+
+                <div class="overflow-hidden mt-8">
+    <table class="text-gray-900 w-[90%]">
+        <tbody class="border-y border-gray-400 text-left">
+            <tr class="">
+                <th class="px-6 py-3 border-s border-e border-gray-400">
+                    Ruangan 301 (20pc)
+                </th>
+                <td class="px-6 py-3 border-e border-gray-400 text-white block gap-2">
+                    <button class="bg-red-500 px-5 py-2 rounded-lg hover:bg-red-600 transition-all duration-300 ease-in-out">
+                        Tolak
+                    </button>
+                    <button class="bg-green-500 px-4 py-2 rounded-lg hover:bg-green-600 transition-all duration-300 ease-in-out">
+                        Terima
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
                 </div>
 
             </div>
